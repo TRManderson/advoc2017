@@ -33,3 +33,10 @@ executable day2a
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
                      , split
+
+executable day2b
+  hs-source-dirs:      src
+  main-is:             Day2B.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , split
