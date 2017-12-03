@@ -1,7 +1,7 @@
 module Main where
 
-solnA :: String -> Int
-solnA s = snd $ foldr step (head conv, 0) conv
+soln :: String -> Int
+soln s = snd $ foldr step (head conv, 0) conv
   where
     conv = map (read . (:[])) s
     step n (l, acc) = case l == n of
@@ -11,4 +11,4 @@ solnA s = snd $ foldr step (head conv, 0) conv
 
 main :: IO ()
 main = do
-  print . solnA =<< getLine
+  print . soln =<< getLine
