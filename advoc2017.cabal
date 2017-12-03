@@ -26,3 +26,10 @@ executable day1b
   build-depends:       base >= 4.7 && < 5
                      , vector
                      , transformers
+
+executable day2a
+  hs-source-dirs:      src
+  main-is:             Day2A.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , split
