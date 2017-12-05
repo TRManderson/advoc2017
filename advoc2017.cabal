@@ -40,3 +40,36 @@ executable day2b
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
                      , split
+
+executable day3a
+  hs-source-dirs:      src
+  main-is:             Day3A.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , bifunctors
+                     , transformers
+
+executable day3b
+  hs-source-dirs:      src
+  main-is:             Day3B.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , bifunctors
+                     , transformers
+                     , containers
+
+executable day4a
+  hs-source-dirs:      src
+  main-is:             Day4A.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , split
+                     , discrimination
+
+executable day4b
+  hs-source-dirs:      src
+  main-is:             Day4B.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , split
+                     , discrimination
