@@ -1,6 +1,6 @@
 name:                advoc2017
 version:             0.1.0.0
-synopsis:            Advent of Code 2017 
+synopsis:            Advent of Code 2017
 -- description:
 homepage:            https://github.com/TRManderson/advoc2017#readme
 license:             BSD3
@@ -73,3 +73,17 @@ executable day4b
   build-depends:       base >= 4.7 && < 5
                      , split
                      , discrimination
+
+executable day5a
+  hs-source-dirs:      src
+  main-is:             Day5A.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , vector
+
+executable day5b
+  hs-source-dirs:      src
+  main-is:             Day5B.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , vector
