@@ -98,6 +98,26 @@ executable day7a
                      , attoparsec
                      , text
 
+executable day12a
+  hs-source-dirs:      src
+  main-is:             Day12A.hs
+  ghc-options:         -threaded
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , fgl
+                     , attoparsec
+                     , text
+
+executable day12b
+  hs-source-dirs:      src
+  main-is:             Day12B.hs
+  ghc-options:         -threaded
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , fgl
+                     , attoparsec
+                     , text
+
 executable day15a
   hs-source-dirs:      src
   main-is:             Day15A.hs
