@@ -149,3 +149,29 @@ executable day15b
   ghc-options:         -threaded
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
+
+executable day18a
+  hs-source-dirs:      src
+  main-is:             Day18A.hs
+  ghc-options:         -threaded -O2
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , text
+                     , attoparsec
+                     , transformers
+                     , containers
+                     , lens
+                     , vector
+
+executable day18b
+  hs-source-dirs:      src
+  main-is:             Day18B.hs
+  ghc-options:         -threaded -O2
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , text
+                     , attoparsec
+                     , transformers
+                     , containers
+                     , lens
+                     , vector
