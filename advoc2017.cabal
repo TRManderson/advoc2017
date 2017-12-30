@@ -88,6 +88,34 @@ executable day5b
   build-depends:       base >= 4.7 && < 5
                      , vector
 
+executable day6a
+  hs-source-dirs:      src
+  main-is:             Day6A.hs
+  default-language:    Haskell2010
+  ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base >= 4.7 && < 5
+                     , split
+                     , unordered-containers
+                     , vector
+                     , vector-instances
+                     , lens
+                     , transformers
+                     , monad-loops
+
+executable day6b
+  hs-source-dirs:      src
+  main-is:             Day6B.hs
+  default-language:    Haskell2010
+  ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base >= 4.7 && < 5
+                     , split
+                     , unordered-containers
+                     , vector
+                     , vector-instances
+                     , lens
+                     , transformers
+                     , monad-loops
+
 executable day7a
   hs-source-dirs:      src
   main-is:             Day7A.hs
