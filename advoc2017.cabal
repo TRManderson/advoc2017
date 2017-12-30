@@ -180,6 +180,14 @@ executable day9b
                      , attoparsec
                      , text
 
+executable day10a
+  hs-source-dirs:      src
+  main-is:             Day10A.hs
+  ghc-options:         -threaded
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , split
+
 executable day12a
   hs-source-dirs:      src
   main-is:             Day12A.hs
