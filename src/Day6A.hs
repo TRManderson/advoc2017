@@ -41,7 +41,7 @@ step = do
   current %= update
   cycleCount += 1
 
--- soln :: PState -> Int
+soln :: PState -> (Int, V.Vector Int)
 soln = S.evalState $ do
   step `untilM_` use stateSeen
   (,) <$> use cycleCount <*> use current
