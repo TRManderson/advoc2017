@@ -188,6 +188,14 @@ executable day10a
   build-depends:       base >= 4.7 && < 5
                      , split
 
+executable day10b
+  hs-source-dirs:      src
+  main-is:             Day10B.hs
+  ghc-options:         -threaded
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , bytestring
+
 executable day12a
   hs-source-dirs:      src
   main-is:             Day12A.hs
