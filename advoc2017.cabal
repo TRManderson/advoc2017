@@ -175,3 +175,23 @@ executable day18b
                      , containers
                      , lens
                      , vector
+
+executable day22a
+  hs-source-dirs:      src
+  main-is:             Day22A.hs
+  ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , transformers
+                     , lens
+                     , containers
+  default-language:    Haskell2010
+
+executable day22b
+  hs-source-dirs:      src
+  main-is:             Day22B.hs
+  ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , transformers
+                     , lens
+                     , containers
+  default-language:    Haskell2010
